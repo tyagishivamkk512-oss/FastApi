@@ -1,4 +1,4 @@
-# Virtual environment
+# Virtual environments
 venv/
 .venv/
 env/
@@ -10,14 +10,21 @@ __pycache__/
 
 # Environment variables
 .env
+.env.*
 
 # IDE
 .vscode/
 
-# pytest
+# Testing
 .pytest_cache/
+.coverage
+htmlcov/
 
 # Distribution
 dist/
 build/
 *.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
